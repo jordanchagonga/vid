@@ -8,6 +8,8 @@
     "audio": "node scripts/prepare-audio.js",
     "render": "node scripts/render.js",
     "stills": "node scripts/render.js --stills",
+    "render:vertical": "node scripts/render.js --format vertical",
+    "share": "node scripts/share.js",
     "build": "npm run audio && npm run render"
   },
   "keywords": [],
