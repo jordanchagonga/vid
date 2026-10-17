@@ -1,0 +1,9 @@
+node_modules/
+
+# Rendered output and scratch frames (rebuild with `npm run build`)
+build/
+out/
+
+# Third-party screen recordings used only as reference (not ours to redistribute)
+inspiration mp4/
+video.mp4.mp4

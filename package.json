@@ -1,0 +1,20 @@
+{
+  "name": "video-production",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "logo": "python -I scripts/prepare_logo.py",
+    "audio": "node scripts/prepare-audio.js",
+    "render": "node scripts/render.js",
+    "stills": "node scripts/render.js --stills",
+    "build": "npm run audio && npm run render"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.64.1"
+  }
+}
